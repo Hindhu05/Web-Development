@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+header {
+    font-size: 30px;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
+
+.hero {
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    background-image: url('https://www.w3schools.com/w3images/architect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.projects img {
+    width: 100%;
+}
+
+
+.about {
+    padding: 10px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding : 20px;
+}
+
+.card-container .card img {
+    width: 100%;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* label {display: block;} */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+}

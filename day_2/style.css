@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+.buchi {
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+
+    width: 50%;
+
+    text-align: left;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+
+    background-color: black;
+    color: white;
+
+    padding: 30px;
+
+    margin: 100px;
+}
